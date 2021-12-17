@@ -1,0 +1,68 @@
+{
+	"CS-1": {
+		"security_level": "4",
+		"group": "1000",
+		"privilege_group": ["SigFig"],
+		"sudo_level": null
+	},
+	"DEV-1": {
+		"security_level": "4",
+		"group": "1000",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": ["2","3","4"]
+	},
+	"DEV-2": {
+		"security_level": "4",
+		"group": "1000",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": ["2","3","4"]
+	},
+	"DEV-3": {
+		"security_level": "4",
+		"group": "1000",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": ["2","3","4"]
+	},
+	"DS-1": {
+		"security_level": "4",
+		"group": "1000",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": ["2","3","4"]
+	},
+	"HAL-1": {
+		"security_level": "0",
+		"group": "1006",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": null
+	},
+	"INFRA-1": {
+		"security_level": "6",
+		"group": "1002",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": ["2","3","4","5","6"]
+	},
+	"QA-1": {
+		"security_level": "4",
+		"group": "1011",
+		"privilege_group": ["SigFig"],
+		"sudo_level": ["2","3","4"]
+	},
+	"QA-2": {
+		"security_level": "4",
+		"group": "1011",
+		"privilege_group": ["SigFig"],
+		"sudo_level": ["2","3","4"]
+	},
+	"QA-3": {
+		"security_level": "4",
+		"group": "1011",
+		"privilege_group": ["SigFig"],
+		"sudo_level": ["2","3","4"]
+	},
+	"SOPS-1": {
+		"security_level": "6",
+		"group": "1002",
+		"privilege_group": ["SigFig","SigFigDev"],
+		"sudo_level": ["2","3","4","5","6"]
+	}
+}

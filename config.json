@@ -1,0 +1,79 @@
+{
+    "1": {
+        "prompt": "Access Requests/LDAP configuration",
+        "submenu": {
+            "1": {
+                "prompt": "Add new LDAP user according to role ID",
+                "file_path": "ldap/access_control.py",
+                "flags": "--role",
+                "interactive": true
+            },
+            "2": {
+                "prompt": "Add new LDAP user by manual configuration",
+                "file_path": "ldap/access_control.py",
+                "flags": "--add",
+                "interactive": true
+            },
+            "3": {
+                "prompt": "Modify LDAP user security level",
+                "file_path": "ldap/access_control.py",
+                "flags": "--security",
+                "interactive": true
+            },
+            "4": {
+                "prompt": "Modify LDAP user sudo level",
+                "file_path": "ldap/access_control.py",
+                "flags": "--sudo",
+                "interactive": true
+            },
+            "5": {
+                "prompt": "Modify LDAP user sudo level by range",
+                "file_path": "ldap/access_control.py",
+                "flags": "--sudorange",
+                "interactive": true
+            },
+            "6": {
+                "prompt": "Modify LDAP user group",
+                "file_path": "ldap/access_control.py",
+                "flags": "--group",
+                "interactive": true
+            },
+            "7": {
+                "prompt": "Modify LDAP user privilege group",
+                "file_path": "ldap/access_control.py",
+                "flags": "--privilegegroup",
+                "interactive": true
+            },
+            "8": {
+                "prompt": "Deactivate LDAP user",
+                "file_path": "ldap/access_control.py",
+                "flags": "--deactivateuser",
+                "interactive": true
+            },
+            "9": {
+                "prompt": "Deactivate LDAP users from batch file",
+                "file_path": "ldap/access_control.py",
+                "flags": "--deactivatebatch",
+                "interactive": true
+            },
+            "10": {
+                "prompt": "Delete LDAP user",
+                "file_path": "ldap/access_control.py",
+                "flags": "--deleteuser",
+                "interactive": true
+            },
+            "11": {
+                "prompt": "Delete LDAP users from batch file",
+                "file_path": "ldap/access_control.py",
+                "flags": "--deletebatch",
+                "interactive": true
+            },
+            "12": {
+                "prompt": "Add sudo command for a user",
+                "file_path": "ldap/access_control.py",
+                "flags": "--sudocommand",
+                "interactive": true
+            }
+        }
+    }
+}
